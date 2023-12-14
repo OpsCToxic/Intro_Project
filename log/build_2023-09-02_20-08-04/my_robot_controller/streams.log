@@ -1,0 +1,27 @@
+[0.553s] Invoking command in '/home/opsctoxic/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/opsctoxic/ros2_ws/build/my_robot_controller/prefix_override:/home/opsctoxic/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/opsctoxic/ros2_ws/build/my_robot_controller/build install --record /home/opsctoxic/ros2_ws/build/my_robot_controller/install.log --install-scripts $base/lib/my_robot_controller --single-version-externally-managed
+[0.717s] running egg_info
+[0.718s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.718s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.719s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[0.719s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.720s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.749s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.750s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.750s] running build
+[0.750s] running build_py
+[0.751s] copying my_robot_controller/my_first_node.py -> /home/opsctoxic/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.751s] copying my_robot_controller/__init__.py -> /home/opsctoxic/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.752s] running install
+[0.753s] running install_lib
+[0.754s] copying /home/opsctoxic/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/opsctoxic/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages/my_robot_controller
+[0.755s] copying /home/opsctoxic/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/opsctoxic/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages/my_robot_controller
+[0.755s] byte-compiling /home/opsctoxic/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-38.pyc
+[0.757s] byte-compiling /home/opsctoxic/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages/my_robot_controller/__init__.py to __init__.cpython-38.pyc
+[0.757s] running install_data
+[0.758s] running install_egg_info
+[0.760s] removing '/home/opsctoxic/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages/my_robot_controller-0.0.0-py3.8.egg-info' (and everything under it)
+[0.761s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/opsctoxic/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages/my_robot_controller-0.0.0-py3.8.egg-info
+[0.762s] running install_scripts
+[0.779s] Installing test_node script to /home/opsctoxic/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.780s] writing list of installed files to '/home/opsctoxic/ros2_ws/build/my_robot_controller/install.log'
+[0.809s] Invoked command in '/home/opsctoxic/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/opsctoxic/ros2_ws/build/my_robot_controller/prefix_override:/home/opsctoxic/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/opsctoxic/ros2_ws/build/my_robot_controller/build install --record /home/opsctoxic/ros2_ws/build/my_robot_controller/install.log --install-scripts $base/lib/my_robot_controller --single-version-externally-managed

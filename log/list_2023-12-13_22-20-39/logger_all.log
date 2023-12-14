@@ -1,0 +1,79 @@
+[4.621s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/opsctoxic/ros2_ws']
+[4.621s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/opsctoxic/ros2_ws'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f0861861e50>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f0861861e50>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f086173e340>)
+[5.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.254s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/opsctoxic/ros2_ws'
+[5.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[5.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extension 'ignore'
+[5.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extension 'ignore_ament_install'
+[5.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extensions ['colcon_pkg']
+[5.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extension 'colcon_pkg'
+[5.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extensions ['colcon_meta']
+[5.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extension 'colcon_meta'
+[5.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extensions ['ros']
+[5.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extension 'ros'
+[6.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extensions ['cmake', 'python']
+[6.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extension 'cmake'
+[6.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extension 'python'
+[6.216s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extensions ['python_setup_py']
+[6.216s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws) by extension 'python_setup_py'
+[6.216s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[6.216s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/build) by extension 'ignore'
+[6.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/build) ignored
+[6.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[6.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/install) by extension 'ignore'
+[6.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/install) ignored
+[6.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[6.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/log) by extension 'ignore'
+[6.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/log) ignored
+[6.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[6.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extension 'ignore'
+[6.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extension 'ignore_ament_install'
+[6.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extensions ['colcon_pkg']
+[6.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extension 'colcon_pkg'
+[6.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extensions ['colcon_meta']
+[6.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extension 'colcon_meta'
+[6.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extensions ['ros']
+[6.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extension 'ros'
+[6.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extensions ['cmake', 'python']
+[6.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extension 'cmake'
+[6.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extension 'python'
+[6.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extensions ['python_setup_py']
+[6.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src) by extension 'python_setup_py'
+[6.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[6.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/build) by extension 'ignore'
+[6.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/build) ignored
+[6.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[6.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/install) by extension 'ignore'
+[6.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/install) ignored
+[6.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[6.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/log) by extension 'ignore'
+[6.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/log) ignored
+[6.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[6.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/my_robot_controller) by extension 'ignore'
+[6.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/my_robot_controller) by extension 'ignore_ament_install'
+[6.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/my_robot_controller) by extensions ['colcon_pkg']
+[6.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/my_robot_controller) by extension 'colcon_pkg'
+[6.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/my_robot_controller) by extensions ['colcon_meta']
+[6.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/my_robot_controller) by extension 'colcon_meta'
+[6.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/my_robot_controller) by extensions ['ros']
+[6.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/my_robot_controller) by extension 'ros'
+[6.416s] DEBUG:colcon.colcon_core.package_identification:Package '/home/opsctoxic/ros2_ws/src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[6.498s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extensions ['ignore', 'ignore_ament_install']
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extension 'ignore'
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extension 'ignore_ament_install'
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extensions ['colcon_pkg']
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extension 'colcon_pkg'
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extensions ['colcon_meta']
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extension 'colcon_meta'
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extensions ['ros']
+[6.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extension 'ros'
+[6.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extensions ['cmake', 'python']
+[6.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extension 'cmake'
+[6.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extension 'python'
+[6.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extensions ['python_setup_py']
+[6.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/opsctoxic/ros2_ws/src/testing_folder) by extension 'python_setup_py'
+[6.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
